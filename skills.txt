@@ -1,0 +1,36 @@
+Linux
+Bash
+Windows
+Engineer
+Integrity
+Honesty
+Technology
+Technical Writing
+Electrical Engineering
+Computer Engineering
+Schematics
+LEAN Manufacturing
+Avionics
+Wiring
+Circuit Design and Analysis
+Oscilloscopes
+Logic Analyzer
+Ms Office Suite
+Excel
+Soldering
+Construction
+3D Printing
+3D CAD
+FPGA
+C++
+Vivado
+Python
+Java
+Javascript
+Assembly
+File Transfer
+Raspberry Pi
+CAD
+CNC Router
+Schematic
+Libre 
