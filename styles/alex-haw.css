@@ -18,22 +18,16 @@ a:visited{ text-decoration: none;}
 a:hover{ text-decoration: none;}
 a:active{ text-decoration: none;}
 
-.contact_set{
-	padding: 10px;
-}
+.contact_set{ padding: 10px;}
 
 h2{
 	font-size: 16px;
 	padding-right: 10%;
 	padding-left: 10%;
 }
-.img-thumbnail:hover{
-	transform: scale(1.1);
-}
+.img-thumbnail:hover{ transform: scale(1:1);}
  
-.col-sm-12{
-	margin-bottom: 10px;
-}
+.col-sm-12{ margin-bottom: 10px;}
 
 .card {
 	width: 32px;
@@ -48,6 +42,4 @@ h2{
 	left: 0;
 	z-index: 99;
 }
-.card:hover .img-top {
-	display: inline;
-}
+.card:hover .img-top { display: inline;}
