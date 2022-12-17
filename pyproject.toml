@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "alexander-haw.github.io"
+version = "0.1.0"
+description = "my resume webpage"
+authors = ["alexander-haw <clockworktux@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+sphinx-adc-theme = "^0.1.7"
+sphinx_theme_pd = "^0.8.3"
+jinja-builder = "^0.1a"
+sphinxcontrib-images = "^0.9.4"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
