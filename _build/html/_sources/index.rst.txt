@@ -1,6 +1,3 @@
-Alexander Haw
-=============
-
 :email: hawxx012@d.umn.edu
 :phone: +64 021 02743418
 
@@ -24,9 +21,12 @@ GPA: 3.4
 Experience
 ----------
 
-:Production Engineer: `Zero Motorcycles <https://www.zeromotorcycles.com/>`_ 2021-2022
-:Production Engineering Intern: `American Precision Avionics <https://www.apavionics.com/>`_ 2019-2021
-:President of IEEE Student Organization: UMD 2019-2021
+Production Engineer
+    `Zero Motorcycles <https://www.zeromotorcycles.com/>`_ 2021-2022
+Production Engineering Intern
+    `American Precision Avionics <https://www.apavionics.com/>`_ 2019-2021
+President of IEEE Student Organization
+    UMD 2019-2021
 
 Skills
 ------
