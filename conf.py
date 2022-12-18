@@ -1,4 +1,3 @@
-
 # -- Project information -----------------------------------------------------
 project = 'resume'
 # copyright = '2022, Alex Haw'
