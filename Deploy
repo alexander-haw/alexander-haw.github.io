@@ -4,6 +4,10 @@ cp -r _build/html/* .
 mv README.html index.html
 mv _static static
 sed -i 's/_static/static/g' index.html
+mv _sources sources
+sed -i 's/_sources/sources/g' index.html
+mv _images images
+sed -i 's/_images/images/g' index.html
 git add .
 git commit -m "$1"
 git push origin
