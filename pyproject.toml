@@ -10,6 +10,7 @@ sphinx-adc-theme = "^0.1.7"
 sphinx_theme_pd = "^0.8.3"
 jinja-builder = "^0.1a"
 sphinxcontrib-images = "^0.9.4"
+sphinx-material = "^0.0.35"
 
 [tool.poetry.dev-dependencies]
 
