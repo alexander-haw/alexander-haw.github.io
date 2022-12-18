@@ -10,5 +10,5 @@ html_theme       = 'bizstyle'
 
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 extensions       = ['sphinxcontrib.images']
-html_static_path = ['_static']
+html_static_path = ['static']
 templates_path   = ['_templates']
