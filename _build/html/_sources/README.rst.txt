@@ -21,7 +21,7 @@ Education
 ---------
 
 **B.S. Electrical Engineering**
-	| Minor in Computer Engineering
+	| Minor: Computer Engineering
 	| *University of Minnesota Duluth* 2017-2021
 	| GPA: 3.4
 
@@ -38,6 +38,15 @@ President of IEEE Student Organization
 Skills
 ------
 
+* Programing Languages:
+    * C++/C (CS1511 and `CS1521 <https://github.com/alexander-haw/alexander-haw.github.io/blob/main/_static/pdf/cs1521.pdf>`_)
+    * Python (Zero and `senior design project <#projects>`_)
+    * Java (`CS2511 <https://www.d.umn.edu/~tcolburn/cs2511/syllabus.xhtml>`_)
+    * Windows VBA (APA)
+    * JavaScript (`CS2511 <https://www.d.umn.edu/~tcolburn/cs2511/syllabus.xhtml>`_)
+    * Assembly (`EE4305 <https://github.com/alexander-haw/alexander-haw.github.io/blob/main/_static/pdf/ee4305.pdf>`_ and `EE2325 <https://github.com/alexander-haw/alexander-haw.github.io/blob/main/_static/pdf/ee2325.pdf>`_)
+    * PowerShell
+    * Bash
 * Manufacturing and Process Engineering
 * Technical Writing (manufacturing process instructions)
 * Engineering Drawings and Documents (schematics, BOMs, controlled documents)
@@ -51,15 +60,6 @@ Skills
 * Linux
 * Windows
 * Web Servers
-* Programming Languages:
-    * C++/C (CS1511 and `CS1521 <https://github.com/alexander-haw/alexander-haw.github.io/blob/main/_static/pdf/cs1521.pdf>`_)
-    * Python (Zero and `senior design project <#projects>`_)
-    * Java (`CS2511 <https://www.d.umn.edu/~tcolburn/cs2511/syllabus.xhtml>`_)
-    * Windows VBA (APA)
-    * JavaScript (`CS2511 <https://www.d.umn.edu/~tcolburn/cs2511/syllabus.xhtml>`_)
-    * Assembly (`EE4305 <https://github.com/alexander-haw/alexander-haw.github.io/blob/main/_static/pdf/ee4305.pdf>`_ and `EE2325 <https://github.com/alexander-haw/alexander-haw.github.io/blob/main/_static/pdf/ee2325.pdf>`_)
-    * PowerShell
-    * Bash
 
 References
 ----------
@@ -85,8 +85,8 @@ Rachel Hockert bitza012@d.umn.edu
 Projects
 --------
 
-**Senior Design Project:** Long-Range ISM-Band File Transfer
-############################################################
+Senior Design Project: Long-Range ISM-Band File Transfer
+########################################################
 
 	This is a system of devices and an accompanying protocol for transferring files up to a kilometer away. My teammates and I developed this novel implementation of a common idea using several popular technologies including: Python, Raspberry Pi, LoRa, CAD, and FDM.
 	
