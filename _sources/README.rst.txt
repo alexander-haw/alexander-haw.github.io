@@ -6,10 +6,10 @@ email
 phone
 	+64 021 02743418
 
-GitHub
-	`alexander-haw <https://github.com/alexander-haw>`_
-Seek
-	`Alexander Haw <https://www.seek.co.nz/profile/alexander-haw-a2Mavu3g1m>`_
+.. GitHub
+.. 	`alexander-haw <https://github.com/alexander-haw>`_
+.. Seek
+.. 	`Alexander Haw <https://www.seek.co.nz/profile/alexander-haw-a2Mavu3g1m>`_
 
 *My mission as an engineer is to uphold integrity, honesty, and goodness in our industry.
 The rate of growth that we're observing in technology is unprecedented in our history, so likewise the influence of our actions have unprecedented importance.*
