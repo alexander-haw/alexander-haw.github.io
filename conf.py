@@ -1,23 +1,14 @@
-# -- Project information -----------------------------------------------------
-project = 'resume'
-# copyright = '2022, Alex Haw'
-author = 'Alexander Haw'
 
-# -- General configuration ---------------------------------------------------
-html_title = "Alexander Haw"
-html_logo = "_images/me_full_small.png"
-# html_favicon = "path/to/favicon.ico"
+project          = 'resume'
+copyright        = '2022, Alex Haw'
+author           = 'Alexander Haw'
 
-extensions = [
-    'sphinxcontrib.images'
-]
+root_doc         = 'README'
+html_title       = "Alexander Haw"
+html_logo        = "_images/me_full_small.png"
+html_theme       = 'bizstyle'
 
-templates_path = ['_templates']
-root_doc = 'README'
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
-
-# -- Options for HTML output -------------------------------------------------
-html_theme = 'bizstyle'
-# html_theme = 'sphinx_theme_pd'
-# html_theme_path = [sphinx_theme_pd.get_html_theme_path()]
+extensions       = ['sphinxcontrib.images']
 html_static_path = ['_static']
+templates_path   = ['_templates']
