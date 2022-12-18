@@ -18,7 +18,7 @@ root_doc = 'input'
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 # -- Options for HTML output -------------------------------------------------
-html_theme = 'sphinxdoc'
+html_theme = 'bizstyle'
 # html_theme = 'sphinx_theme_pd'
 # html_theme_path = [sphinx_theme_pd.get_html_theme_path()]
 html_static_path = ['_static']
