@@ -1,6 +1,8 @@
 Alexander Haw
 =============
 
+*My mission as an engineer is to advocate integrity, honesty, and goodness in our discipline.*
+
 email
 	hawxx012@d.umn.edu
 phone
@@ -11,9 +13,6 @@ phone
 .. Seek
 .. 	`Alexander Haw <https://www.seek.co.nz/profile/alexander-haw-a2Mavu3g1m>`_
 
-*My mission as an engineer is to uphold integrity, honesty, and goodness in our industry.
-The rate of growth that we're observing in technology is unprecedented in our history, so likewise the influence of our actions have unprecedented importance.*
-
 Synopsis
 --------
 Electrical Engineer with background in computer science, microprocessors, manufacturing, and operations.
@@ -21,8 +20,12 @@ Electrical Engineer with background in computer science, microprocessors, manufa
 Education
 ---------
 
+**B.S. Electrical Engineering**
+
+Minor in Computer Engineering
+
 **University of Minnesota Duluth** 2017-2021
-B.S. Electrical Engineering, Minor in Computer Engineering
+
 GPA: 3.4
 
 Experience
