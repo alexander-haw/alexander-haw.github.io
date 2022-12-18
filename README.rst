@@ -53,7 +53,7 @@ Skills
     * Java (`CS2511 <https://www.d.umn.edu/~tcolburn/cs2511/syllabus.xhtml>`_)
     * Windows VBA (APA)
     * JavaScript (`CS2511 <https://www.d.umn.edu/~tcolburn/cs2511/syllabus.xhtml>`_)
-    * Assembly (`EE4305 <./pdf/ee4305.pdf>`_ and `EE2325 <./pdf/ee2325.pdf>`_)
+    * Assembly (`EE4305 <_static/pdf/ee4305.pdf>` and `EE2325 <_static/pdf/ee2325.pdf>`)
     * PowerShell
     * Bash
 
