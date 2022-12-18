@@ -1,7 +1,8 @@
-email
-	hawxx012@d.umn.edu
-phone
-	+64 021 02743418
+Alexander Haw
+=============
+hawxx012@d.umn.edu
+
++64 021 02743418
 
 GitHub
 	`alexander-haw <https://github.com/alexander-haw>`_
