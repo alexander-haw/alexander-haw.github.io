@@ -1,6 +1,6 @@
 make html
 cp -r _build/html/* .
-mv README.rst index.html
+mv README.html index.html
 git pull origin
 git add .
 git commit -m "$1"
