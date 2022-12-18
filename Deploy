@@ -1,9 +1,9 @@
+git pull origin
 make html
 cp -r _build/html/* .
 mv README.html index.html
 mv _static static
 sed -i 's/_static/static/g' index.html
-#git pull origin
 git add .
 git commit -m "$1"
 git push origin
