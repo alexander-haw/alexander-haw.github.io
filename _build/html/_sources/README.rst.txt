@@ -1,7 +1,7 @@
 Alexander Haw
 =============
 
-*My mission as an engineer is to advocate integrity, honesty, and goodness in our discipline.*
+*An advocate for honesty, integrity, and goodness in engineering.*
 
 email
 	hawxx012@d.umn.edu
