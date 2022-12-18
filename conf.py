@@ -14,7 +14,7 @@ extensions = [
 ]
 
 templates_path = ['_templates']
-root_doc = 'input'
+root_doc = 'README'
 exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 # -- Options for HTML output -------------------------------------------------
