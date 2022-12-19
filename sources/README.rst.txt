@@ -104,6 +104,15 @@ Reverse Engineering Duluth Maker Space CNC
 	.. thumbnail:: _images/dms_masso.png
 		:width: 200px
 
+Manufacturing Application User Interface
+########################################
+
+	The Duluth Maker space had recently installed a new CNC router in their wood-shop. In order to operate it however, they needed an electrical schematic for the city to approve. I was referred to this task by my friend Josh from APA.
+	See below for the final product, made in Libre Office. I had a lot of fun working with the DMS staff on this!
+
+	.. thumbnail:: _images/ui.gif
+		:width: 200px
+
 El Camino Dashboard
 ###################
 

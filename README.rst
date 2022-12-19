@@ -39,14 +39,15 @@ Skills
 ------
 
 * Programing Languages:
+    * Python (Zero Motorcycles and `senior design project <#projects>`_)
     * C++/C (CS1511 and `CS1521 <https://github.com/alexander-haw/alexander-haw.github.io/blob/main/_static/pdf/cs1521.pdf>`_)
-    * Python (Zero and `senior design project <#projects>`_)
     * Java (`CS2511 <https://www.d.umn.edu/~tcolburn/cs2511/syllabus.xhtml>`_)
     * Windows VBA (APA)
     * JavaScript (`CS2511 <https://www.d.umn.edu/~tcolburn/cs2511/syllabus.xhtml>`_)
     * Assembly (`EE4305 <https://github.com/alexander-haw/alexander-haw.github.io/blob/main/_static/pdf/ee4305.pdf>`_ and `EE2325 <https://github.com/alexander-haw/alexander-haw.github.io/blob/main/_static/pdf/ee2325.pdf>`_)
     * PowerShell
     * Bash
+    * Rust
 * Manufacturing and Process Engineering
 * Technical Writing (manufacturing process instructions)
 * Engineering Drawings and Documents (schematics, BOMs, controlled documents)
@@ -102,6 +103,17 @@ Reverse Engineering Duluth Maker Space CNC
 	See below for the final product, made in Libre Office. I had a lot of fun working with the DMS staff on this!
 
 	.. thumbnail:: _images/dms_masso.png
+		:width: 200px
+
+Manufacturing Application User Interface
+########################################
+
+	Since all of my work at Zero Motorcycles belongs to them, my code projects unfortunately cannot be shared publicly.
+	However, the skills I learned through them are just as plentiful as the projects themselves, as I hope to demonstrate.
+	Below is a short animation of a simple program I wrote in Python. This approximates the types of applications I created at Zero Motorcycles for use on the production line.
+	You can browse the source code `here <https://github.com/alexander-haw/mfg-tui/tree/main/src>`_!
+
+	.. thumbnail:: _images/ui.gif
 		:width: 200px
 
 El Camino Dashboard
