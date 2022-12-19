@@ -96,14 +96,40 @@ Senior Design Project: Long-Range ISM-Band File Transfer
 	.. thumbnail:: _images/senior_d.jpg
 		:width: 200px
 
-Reverse Engineering Duluth Maker Space CNC
-##########################################
+Python CLI Argument Parser Using Enumerations
+#############################################
 
-	The Duluth Maker space had recently installed a new CNC router in their wood-shop. In order to operate it however, they needed an electrical schematic for the city to approve. I was referred to this task by my friend Josh from APA.
-	See below for the final product, made in Libre Office. I had a lot of fun working with the DMS staff on this!
+	This is a Python package I created that uses the builtin ``enum`` package to set up a user's options for a given program.
+	The purpose is to improve syntax recognition for static code analysis, which eliminates duplicate arguments through static analysis rather than generating an error at runtime.
 
-	.. thumbnail:: _images/dms_masso.png
-		:width: 200px
+	You can browse the source code `here <https://github.com/alexander-haw/args_enum>`_, and should you wish to you may add it to your project from `PyPi <https://pypi.org/project/args-enum/>`_!
+
+	A minimal example::
+
+		import args_enum as aenm
+
+		AppParser = aenm.Parser(
+			aenm.Log,
+			QUIET = aenm.Flag.TRUE("log level 'WARNING'"),
+			DEBUG = aenm.Flag.TRUE("log level 'DEBUG'")
+		)
+		args = AppParser.parse_args()
+
+	The code above will produce the following ``--help`` output::
+
+		usage: your_program.py [-h] [--quiet] [--debug]
+					[--log-level {NOTSET,TRACE,DEBUG,INFO,WARNING}]
+					[--log-dir LOG_DIR]
+
+		options:
+		-h, --help            show this help message and exit
+		--quiet               log level 'WARNING'
+		--debug               log level 'DEBUG'
+
+		log:
+		--log-level {NOTSET,TRACE,DEBUG,INFO,WARNING}
+								Program logger output verbosity
+		--log-dir LOG_DIR     Destination directory for log files
 
 Manufacturing Application User Interface
 ########################################
@@ -114,6 +140,15 @@ Manufacturing Application User Interface
 	You can browse the source code `here <https://github.com/alexander-haw/mfg-tui/tree/main/src>`_!
 
 	.. thumbnail:: _images/ui.gif
+		:width: 200px
+
+Reverse Engineering Duluth Maker Space CNC
+##########################################
+
+	The Duluth Maker space had recently installed a new CNC router in their wood-shop. In order to operate it however, they needed an electrical schematic for the city to approve. I was referred to this task by my friend Josh from APA.
+	See below for the final product, made in Libre Office. I had a lot of fun working with the DMS staff on this!
+
+	.. thumbnail:: _images/dms_masso.png
 		:width: 200px
 
 El Camino Dashboard
@@ -152,7 +187,7 @@ Frankenstein Laptop
 A Creative Solution
 ###################
 
-	My vehicle last winter, a 1999 Subaru Legacy, needed a new pulley for its timing assembly. Shown to the left is my finished result. This is a 3D printed <i>patch</i> of sorts, which replaces the damaged teeth on the part. I created the part in CAD, created it on a 3D printer, then held it in place with bolts. The pulley required some modification to fit the patch. Once it was complete, this part lasted several months until the clutch became the demise of the car.
+	My vehicle last winter, a 1999 Subaru Legacy, needed a new pulley for its timing assembly. Shown to the left is my finished result. This is a 3D printed *patch*, which replaces the damaged teeth on the part. I created the part in CAD, created it on a 3D printer, then held it in place with bolts. The pulley required some modification to fit the patch. Once it was complete, this part lasted several months until the clutch became the demise of the car.
 
 	.. thumbnail:: _images/sprocket_printing.jpg
 		:width: 200px
