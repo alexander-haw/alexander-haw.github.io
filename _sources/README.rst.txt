@@ -29,6 +29,8 @@ Experience
 ----------
 
 Production Engineer
+    `ABB <https://new.abb.com/nz/about/abb-in-nz>`_ 2022-present
+Production Engineer
     `Zero Motorcycles <https://www.zeromotorcycles.com/>`_ 2021-2022
 Production Engineering Intern
     `American Precision Avionics <https://www.apavionics.com/>`_ 2019-2021
@@ -46,8 +48,6 @@ Skills
     * JavaScript (`CS2511 <https://www.d.umn.edu/~tcolburn/cs2511/syllabus.xhtml>`_)
     * Assembly (`EE4305 <https://github.com/alexander-haw/alexander-haw.github.io/blob/main/_static/pdf/ee4305.pdf>`_ and `EE2325 <https://github.com/alexander-haw/alexander-haw.github.io/blob/main/_static/pdf/ee2325.pdf>`_)
     * PowerShell
-    * Bash
-    * Rust
 * Manufacturing and Process Engineering
 * Technical Writing (manufacturing process instructions)
 * Engineering Drawings and Documents (schematics, BOMs, controlled documents)
