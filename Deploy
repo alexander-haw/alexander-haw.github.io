@@ -1,9 +1,12 @@
 make html
 cp -r _build/html/* .
 mv README.html index.html
+rm -rf static
 mv _static static
 sed -i 's/_static/static/g' index.html
+rm -rf sources
 mv _sources sources
 sed -i 's/_sources/sources/g' index.html
+rm -rf images
 mv _images images
 sed -i 's/_images/images/g' index.html
