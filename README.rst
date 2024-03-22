@@ -77,7 +77,7 @@ Senior Design Project: Long-Range ISM-Band File Transfer
 	
 	`Video Presentation <https://youtu.be/p_xYzZlvcl0>`_
 
-	.. thumbnail:: _images/senior_d.jpg
+	.. thumbnail:: images/senior_d.jpg
 		:width: 200px
 
 Capacitor Reformer
@@ -112,7 +112,7 @@ Reverse Engineering Duluth Maker Space CNC
 	The Duluth Maker space had recently installed a new CNC router in their wood-shop. In order to operate it however, they needed an electrical schematic for the city to approve. I was referred to this task by my friend Josh from APA.
 	See below for the final product, made in Libre Office. I had a lot of fun working with the DMS staff on this!
 
-	.. thumbnail:: _images/dms_masso.png
+	.. thumbnail:: images/dms_masso.png
 		:width: 200px
 
 El Camino Dashboard
@@ -120,11 +120,11 @@ El Camino Dashboard
 
 	In my sophomore year at UMD, I bought a 1977 Chevrolet El Camino as my daily driver. None of the dashboard insturments worked, so I set out to make a replacement. I stripped all of the internals from the cabin, and over a number of weeks created the final product to the left. I designed and fabricated everything you see from scratch.
 
-	.. thumbnail:: _images/camino_before.jpg
+	.. thumbnail:: images/camino_before.jpg
 		:width: 200px
-	.. thumbnail:: _images/camino_wiring.jpg
+	.. thumbnail:: images/camino_wiring.jpg
 		:width: 200px
-	.. thumbnail:: _images/camino_final.jpg
+	.. thumbnail:: images/camino_final.jpg
 		:width: 200px
 
 Tesla Coil Interactive Display
@@ -132,9 +132,9 @@ Tesla Coil Interactive Display
 
 	The EE Lounge is where I spent much of my time between classes, so I made an effort to make it into an inviting place for learning and collaboration. There is a display case next to the entrance, which initially contained a monitor that had long-since stopped working. I took an abandoned Tesla Coil that was once a capstone project and replaced the monitor with it. I then built a Faraday Cage around the coil for safety, then added some buttons so that visitors can energize the coil themselves!
 
-	.. thumbnail:: _images/tesla_cage.jpg
+	.. thumbnail:: images/tesla_cage.jpg
 		:width: 200px
-	.. thumbnail:: _images/tesla_display.jpg
+	.. thumbnail:: images/tesla_display.jpg
 		:width: 200px
 
 UMD EE Lounge Workspace
