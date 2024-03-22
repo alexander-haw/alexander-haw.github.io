@@ -1,26 +1,22 @@
 Alexander Haw
 =============
 
-*An advocate for honesty, integrity, and goodness in engineering.*
+*An advocate for fairness and responsibity in engineering.*
 
 email
-	hawxx012@d.umn.edu
+	alexander.haw@outlook.com
 phone
-	+64 021 02743418
-
-.. GitHub
-.. 	`alexander-haw <https://github.com/alexander-haw>`_
-.. Seek
-.. 	`Alexander Haw <https://www.seek.co.nz/profile/alexander-haw-a2Mavu3g1m>`_
+	`+1 218 9404128 <tel:2189404128>`_
 
 Synopsis
 --------
-Electrical Engineer with background in computer science, microprocessors, manufacturing, and operations.
+
+Electrical Engineer with background in manufacturing, and operations, wiring design, and computer science.
 
 Education
 ---------
 
-**B.S. Electrical Engineering**
+`B.S. Electrical Engineering <https://academics.d.umn.edu/electrical-engineering-bsee>`_
 	| Minor: Computer Engineering
 	| *University of Minnesota Duluth* 2017-2021
 	| GPA: 3.4
@@ -28,42 +24,36 @@ Education
 Experience
 ----------
 
+R&D Production Engineer
+	| `ABB Napier <https://new.abb.com/nz/about/abb-in-nz>`_
+	| February 2023-March 2024
 Production Engineer
-    `ABB <https://new.abb.com/nz/about/abb-in-nz>`_ 2022-present
-Production Engineer
-    `Zero Motorcycles <https://www.zeromotorcycles.com/>`_ 2021-2022
+	| `Zero Motorcycles <https://www.zeromotorcycles.com/>`_
+	| July 2021-October 2022
 Production Engineering Intern
-    `American Precision Avionics <https://www.apavionics.com/>`_ 2019-2021
-President of IEEE Student Organization
-    UMD 2019-2021
+	| `American Precision Avionics <https://www.apavionics.com/>`_
+	| May 2019-May 2021
+President of IEEE Student Chapter
+	| University of Minnesota Duluth
+	| September 2019-May 2021
 
 Skills
 ------
 
-* Programing Languages:
-    * Python (Zero Motorcycles and `senior design project <#projects>`_)
-    * C++/C (CS1511 and `CS1521 <https://github.com/alexander-haw/alexander-haw.github.io/blob/main/_static/pdf/cs1521.pdf>`_)
-    * Java (`CS2511 <https://www.d.umn.edu/~tcolburn/cs2511/syllabus.xhtml>`_)
-    * Windows VBA (APA)
-    * JavaScript (`CS2511 <https://www.d.umn.edu/~tcolburn/cs2511/syllabus.xhtml>`_)
-    * Assembly (`EE4305 <https://github.com/alexander-haw/alexander-haw.github.io/blob/main/_static/pdf/ee4305.pdf>`_ and `EE2325 <https://github.com/alexander-haw/alexander-haw.github.io/blob/main/_static/pdf/ee2325.pdf>`_)
-    * PowerShell
 * Manufacturing and Process Engineering
-* Technical Writing (manufacturing process instructions)
-* Engineering Drawings and Documents (schematics, BOMs, controlled documents)
+* Engineering Drawings and Controlled Documents
+* Technical Writing
+* Programing Languages: Python, C++, VBA, PowerShell
 * Circuit Design and Analysis
-* Electronics Lab Equipment (oscilloscope, multimeter, signal generator, frequency analyzer, etc.)
-* PCBs
-* Soldering and Circuit Construction
-* FDM/3D printing
-* 3D CAD
-* *Microsoft* and *Libre* Office Suites
-* Linux
-* Windows
-* Web Servers
+* Electronics Lab Experiments
+* Electrical Assembly, Fabrication, Troubleshooting
+* Windows and Linux
 
 References
 ----------
+
+Armin Beck armin.beck@nz.abb.com
+	Production Engineering Manager at ABB Napier
 
 John Matthews mail@johnmatthews.net
 	Engineering Equipment Manager at Zero Motorcycles
@@ -75,13 +65,7 @@ Katherine Rasley krasley@mnpower.com
 	President of IEEE Arrowhead Chapter
 
 Imran Hayee ihayee@d.umn.edu
-	EE Professor at UMD
-
-Ethan Casady northharborservices@gmail.com
-	Owner of North Harbor Services
-
-Rachel Hockert bitza012@d.umn.edu
-	Electrical Engineer at STAR Energy Services
+	Professor and Department Head at UMD Electrical Engineering Department
 
 Projects
 --------
@@ -93,54 +77,34 @@ Senior Design Project: Long-Range ISM-Band File Transfer
 	
 	`Video Presentation <https://youtu.be/p_xYzZlvcl0>`_
 
-	.. thumbnail:: _images/senior_d.jpg
+	.. thumbnail:: images/senior_d.jpg
 		:width: 200px
 
-Python CLI Argument Parser Using Enumerations
-#############################################
+Capacitor Reformer
+##################
 
-	This is a Python package I created that uses the builtin ``enum`` package to set up a user's options for a given program.
-	The purpose is to improve syntax recognition for static code analysis, which eliminates duplicate arguments through static analysis rather than generating an error at runtime.
+	Before my time at ABB Napier, we had aquired several thousand large elecrolytic capcitors with a combined value of about $500,000.
+	These were being consumed at a rate much lower than expected when they were purchased. This resulted in the capacitors staying in storage for upwards of two years - which was the manufacturer's stated shelf life.
+	They consequently manifested unacceptable leakage current once installed, leading to complications at the end-of-line test.
 
-	You can browse the source code `here <https://github.com/alexander-haw/args_enum>`_, and should you wish to you may add it to your project from `PyPi <https://pypi.org/project/args-enum/>`_!
+	To remedy this and recover the value of the capacitors, I designed and (with the assistance of our test technicians) assembled a *reforming* fixture.
+	This was ultimetely nothing but an apparatus that *slowly* charged and capacitors to their rated voltagem, then subsequently discharged them to allow safe storage.
 
-	A minimal example::
+	Other tasks involved in this project included: coordinating with fabrication services to create custom parts, coordinating material movement and storage requirements with the warehouse staff, reviewing the safety features of the fixtures with R&D engineers (earth bonding for metal parts, isolation of energized components, PPE and measurement tool requirements, Job Safety Analysis form for first test run), documenting the design process, and composing an operating procedure.
 
-		import args_enum as aenm
+	Ultimately, this project was able to recoup almost all potential lost value; materials, labor, and transportation amounting to about 5% of the combined parts' value.
 
-		AppParser = aenm.Parser(
-			aenm.Log,
-			QUIET = aenm.Flag.TRUE("log level 'WARNING'"),
-			DEBUG = aenm.Flag.TRUE("log level 'DEBUG'")
-		)
-		args = AppParser.parse_args()
+XMC Microcontroller JTAG Programmer
+###################################
 
-	The code above will produce the following ``--help`` output::
+	At Zero Motorcycles, our vehicles utilized an ARM-based microcontroller for both the MBB and BMU. However, the microcontroller we used was being discontinued.
+	This presented the following requirement in our manufacturing process: the ability to identify which unprogrammed IC was inside an ECU, then program and configure the ECU accordingly - all without the program user's guidance.
+	This would allow us to use up our existing stock of ECU's then seamlessly introduce the new part without any manual intervention.
 
-		usage: your_program.py [-h] [--quiet] [--debug]
-					[--log-level {NOTSET,TRACE,DEBUG,INFO,WARNING}]
-					[--log-dir LOG_DIR]
+	I developed a Python program for this, capable of identifying the IC via JTAG by reading its ID registers. It then flashed the correct firmware file based on this information, also using the JTAG interface.
+	This poka-yoke was nescessary to eliminate any possibility of a mislabelled ECU recieving the incorrect firmware, leading to unexpected behavior. Once the ECU was programmed however, updates could be applied using the CAN interface.
 
-		options:
-		-h, --help            show this help message and exit
-		--quiet               log level 'WARNING'
-		--debug               log level 'DEBUG'
-
-		log:
-		--log-level {NOTSET,TRACE,DEBUG,INFO,WARNING}
-								Program logger output verbosity
-		--log-dir LOG_DIR     Destination directory for log files
-
-Manufacturing Application User Interface
-########################################
-
-	Since all of my work at Zero Motorcycles belongs to them, my code projects unfortunately cannot be shared publicly.
-	However, the skills I learned through them are just as plentiful as the projects themselves, as I hope to demonstrate.
-	Below is a short animation of a simple program I wrote in Python. This approximates the types of applications I created at Zero Motorcycles for use on the production line.
-	You can browse the source code `here <https://github.com/alexander-haw/mfg-tui/tree/main/src>`_!
-
-	.. thumbnail:: _images/ui.gif
-		:width: 200px
+	Considerations were made for ease-of-use in the operator interface, utilizing barcode scanners instead of manual data entry, and traceability included by recording logs for each programming performed.
 
 Reverse Engineering Duluth Maker Space CNC
 ##########################################
@@ -148,7 +112,7 @@ Reverse Engineering Duluth Maker Space CNC
 	The Duluth Maker space had recently installed a new CNC router in their wood-shop. In order to operate it however, they needed an electrical schematic for the city to approve. I was referred to this task by my friend Josh from APA.
 	See below for the final product, made in Libre Office. I had a lot of fun working with the DMS staff on this!
 
-	.. thumbnail:: _images/dms_masso.png
+	.. thumbnail:: images/dms_masso.png
 		:width: 200px
 
 El Camino Dashboard
@@ -156,11 +120,11 @@ El Camino Dashboard
 
 	In my sophomore year at UMD, I bought a 1977 Chevrolet El Camino as my daily driver. None of the dashboard insturments worked, so I set out to make a replacement. I stripped all of the internals from the cabin, and over a number of weeks created the final product to the left. I designed and fabricated everything you see from scratch.
 
-	.. thumbnail:: _images/camino_before.jpg
+	.. thumbnail:: images/camino_before.jpg
 		:width: 200px
-	.. thumbnail:: _images/camino_wiring.jpg
+	.. thumbnail:: images/camino_wiring.jpg
 		:width: 200px
-	.. thumbnail:: _images/camino_final.jpg
+	.. thumbnail:: images/camino_final.jpg
 		:width: 200px
 
 Tesla Coil Interactive Display
@@ -168,30 +132,9 @@ Tesla Coil Interactive Display
 
 	The EE Lounge is where I spent much of my time between classes, so I made an effort to make it into an inviting place for learning and collaboration. There is a display case next to the entrance, which initially contained a monitor that had long-since stopped working. I took an abandoned Tesla Coil that was once a capstone project and replaced the monitor with it. I then built a Faraday Cage around the coil for safety, then added some buttons so that visitors can energize the coil themselves!
 
-	.. thumbnail:: _images/tesla_cage.jpg
+	.. thumbnail:: images/tesla_cage.jpg
 		:width: 200px
-	.. thumbnail:: _images/tesla_display.jpg
-		:width: 200px
-
-Frankenstein Laptop
-###################
-
-	The laptop shown is a Chromebook Thinkpad 11e that I flashed with Coreboot, and installed Debian on. This was my daily laptop, so I decided to add some features to make it more versatile. This included an embedded radio from my senior design project, a 10 amp-hour battery (made from drill batteries), a USB hub, a Raspberry Pi as an auxiliary desktop, and additional cooling fans. While it worked, it proved to be impractical for daily use.
-	My daily laptop is now a Thinkpad X131e Chromebook with the same firmware and OS, along with additional storage. I've had to resist the temptation to make any ridiculous modifications to it.
-
-	.. thumbnail:: _images/dinkpad_side.jpg
-		:width: 200px
-	.. thumbnail:: _images/dinkpad_final.jpg
-		:width: 200px
-
-A Creative Solution
-###################
-
-	My vehicle last winter, a 1999 Subaru Legacy, needed a new pulley for its timing assembly. Shown to the left is my finished result. This is a 3D printed *patch*, which replaces the damaged teeth on the part. I created the part in CAD, created it on a 3D printer, then held it in place with bolts. The pulley required some modification to fit the patch. Once it was complete, this part lasted several months until the clutch became the demise of the car.
-
-	.. thumbnail:: _images/sprocket_printing.jpg
-		:width: 200px
-	.. thumbnail:: _images/sprocket_insitu.jpg
+	.. thumbnail:: images/tesla_display.jpg
 		:width: 200px
 
 UMD EE Lounge Workspace
@@ -211,11 +154,6 @@ Electronic Process Instruction Generator Program and Server
 
 	At APA, process instructions are typically written using a word processor. We recieved a large number of schematics for cables from a customer. These have very few components, in contrast to a typical wiring harness. I found that the amount of engineering work required to create process instructions for such a great number of practically identical assemblies was woefully inefficient, where every global revision could take several hours to update. This could be as simple as changing the length of a piece of heat-shrink tube.
 	To make this operation easier, faster, and less susceptible to human error, I created a Visual Basic program that generates HTML documents from data stored in a spreadsheet. These documents are then served to the production staff from a Rasperry Pi running an Apache server. This reduced the workload on the engineering team several fold for this project.
-
-Schematic Data Extractor
-########################
-
-	This is a program I created in Visual Basic, which is able to extract data from drawings recieved from customers and parse it into units that are formatted for our process instructions. This operation was often facilitated by arduous creation of formulas in Excel, but could now be performed at the click of a button.
 
 ECO Checker Program
 ###################
